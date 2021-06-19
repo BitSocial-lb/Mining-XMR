@@ -1,5 +1,7 @@
 # Mining XMR
 
+### Guida step-by-step per installare configurare un miner Monero
+
 ### Scaricare il software di mining
 ```bash
 
