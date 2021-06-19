@@ -1,6 +1,6 @@
-# Mining
+# Mining XMR
 
-### Installazione
+### Scaricare il software di mining
 ```bash
 
 # Scarica il binario
