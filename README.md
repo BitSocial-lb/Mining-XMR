@@ -1,7 +1,6 @@
 # Mining
 
-
-''bash
+```bash
 crontab -e
 
 #incollare in fondo al file
