@@ -1,6 +1,8 @@
+#sostituire user col vostro nome utente
+
 #!/bin/bash
 
-pushd /home/luca/xmrig-6.3.1 > /dev/null
+pushd /home/user/xmrig-6.3.1 > /dev/null
 
 /usr/bin/screen -X -S miner quit
 
