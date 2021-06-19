@@ -1,38 +1,5 @@
 # Mining
 
-```bash
-
-sudo apt-get install aptitude
-
-apt-get -qq -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y 
-            install  aptitude  software-properties-common  build-essential  libtool     
-            autotools-dev  autoconf  automake  wget  htop  unzip  curl  git
-
-sudo apt-get -qq -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y 
-            install  aptitude  software-properties-common  build-essential  libtool  
-            autotools-dev  autoconf  automake  wget  htop  unzip  curl  git
-
-sudo apt-get update && sudo apt-get -y full-upgrade
-
-
-
-
-
-
-
-
-
-
-chmod +x start-mining.sh 
-chmod +x start-boot.sh 
-    
-crontab -e
-
-#incollare in fondo al file
-@reboot    ~/start-boot.sh
-
-## Bitcoin Core
-
 ### Installazione
 ```bash
 
@@ -65,16 +32,18 @@ Modifico il file di configurazione inserendo l'indirizzo, la pool e abbassando l
 
 
 ### Script
-Scarico gli script 
+Scarico gli script presenti in questa repository e definisco i permessi
 
-wget
-wget
-
+```bash
+chmod +x start-mining.sh 
+chmod +x start-boot.sh 
+```
 
 ### Avvia lo script
 ```bash
 ./start-mining.sh
 ```
+
 
 ### Avvio automatico in caso di reboot
 ```bash
